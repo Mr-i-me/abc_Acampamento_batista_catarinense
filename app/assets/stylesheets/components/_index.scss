@@ -1,5 +1,10 @@
-// Import your components CSS files here.
+// Import your CSS files here.
+@import "predefine";
+@import "variables";
 @import "alert";
 @import "avatar";
 @import "navbar";
-@import "carouselItem";
+// @import "carouselItem";
+@import "header";
+@import "button";
+@import "banner";
