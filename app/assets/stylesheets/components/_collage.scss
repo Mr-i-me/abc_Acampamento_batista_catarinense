@@ -19,7 +19,7 @@
   display: flex;
   justify-content: flex-end;
 }
-#about .collage {
+.collage {
     width: 500px;
 		margin: 100px auto;
     position: relative;
@@ -133,6 +133,7 @@
 
 @media (max-width: 768px) {
   #about .about-container .title {
+    display: inline-flex;
     padding-top: 15px;
   }
 }
