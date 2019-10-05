@@ -15,9 +15,9 @@
 <section id="about" class="page-section">
 
   <div class="container">
-    <div class="row row justify-content-md-center about-container">
+    <div class="row justify-content-md-center about-container">
 
-      <div class="col ol-lg-6 content order-lg-1 order-1">
+      <div class="col col-lg-6 content order-lg-1 order-1">
         <h2 class="title">O Que Oferecemos.</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -57,33 +57,55 @@
 
       <div class="col col-lg-6 order-lg-2 order-2 wow fadeInRight collage">
 
-        <!-- Top Set -->
-        <a href="#">
-          <img src="http://tympanus.net/Development/Stapel/images/6/7.jpg" alt="Collage Photo">
-        </a>
-        <a href="#">
-          <img src="http://tympanus.net/Development/Stapel/images/4/14.jpg" alt="Collage Photo">
-        </a>
-        <a href="#">
-          <img src="http://dribbble.s3.amazonaws.com/users/41738/screenshots/659951/dad-faces.jpg" alt="Collage Photo">
-        </a>
-        <a href="#">
-          <img src="http://tympanus.net/Development/Stapel/images/7/8.jpg" alt="Collage Photo">
-        </a>
-        <a href="#">
-          <img src="http://tympanus.net/Development/Stapel/images/3/4.jpg" alt="Collage Photo">
-        </a>
+        <div class="container">
 
+          <ul class="list-unstyled">
+
+            <a class="sizer " href="#">
+              <li class="media">
+                <!-- Top Set -->
+                <img src="http://tympanus.net/Development/Stapel/images/6/7.jpg" alt="Collage Photo">
+              </li>
+            </a>
+
+            <a class="sizer" href="#">
+              <li class="media">
+                <img src="http://tympanus.net/Development/Stapel/images/4/14.jpg" alt="Collage Photo">
+              </li>
+            </a>
+
+            <a class="sizer" href="#">
+              <li class="media">
+                <img src="http://dribbble.s3.amazonaws.com/users/41738/screenshots/659951/dad-faces.jpg" alt="Collage Photo">
+              </li>
+            </a>
+
+            <a class="sizer" href="#">
+              <li class="media">
+                <img src="http://tympanus.net/Development/Stapel/images/7/8.jpg" alt="Collage Photo">
+              </li>
+            </a>
+
+            <a class="sizer" href="#">
+              <li class="media">
+                <img src="http://tympanus.net/Development/Stapel/images/3/4.jpg" alt="Collage Photo">
+              </li>
+            </a>
+
+          </ul>
+
+        </div>
       </div>
     </div>
 
   </div>
 </section>
 <section class="page-sectin">
-
   <!-- #about -->
   <%= render 'shared/components/cta' %>
 </section>
+
+<%= render 'shared/footer' %>
 
 <!-- #hero -->
 
