@@ -13,15 +13,20 @@
 
 <!--========================== About Us Section ============================-->
 <section id="about" class="page-section">
+  <div class="container about-container">
+    <div class="row justify-content-md-center "></div>
+    <h2 class="title">O Que Oferecemos.</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
 
-  <div class="container">
-    <div class="row justify-content-md-center about-container">
+  <div class="container about-container">
+
+    <div class="row justify-content-md-center ">
 
       <div class="col col-lg-6 content order-lg-1 order-1">
-        <h2 class="title">O Que Oferecemos.</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
+
 
         <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
           <div class="icon">
@@ -54,59 +59,41 @@
         </div>
 
       </div>
+      <% collage = [
+                    "http://tympanus.net/Development/Stapel/images/6/7.jpg",
+                    "http://tympanus.net/Development/Stapel/images/4/14.jpg",
+                    "http://dribbble.s3.amazonaws.com/users/41738/screenshots/659951/dad-faces.jpg",
+                    "http://tympanus.net/Development/Stapel/images/7/8.jpg",
+                    "http://tympanus.net/Development/Stapel/images/3/4.jpg"
+                    ]  %>
+        <div class="col col-lg-6 order-lg-2 order-2 wow fadeInRight collage">
 
-      <div class="col col-lg-6 order-lg-2 order-2 wow fadeInRight collage">
+          <div class="container">
 
-        <div class="container">
+            <ul class="list-unstyled">
 
-          <ul class="list-unstyled">
+              <% collage.each do |image| %>
+                <a class="sizer" href="#">
+                  <li class="media">
+                    <img src="<%= image %>" "alt=" collage="Collage" photo"=" photo""="Photo""">
+                  </li>
+                </a>
+              <% end %>
+            </ul>
 
-            <a class="sizer " href="#">
-              <li class="media">
-                <!-- Top Set -->
-                <img src="http://tympanus.net/Development/Stapel/images/6/7.jpg" alt="Collage Photo">
-              </li>
-            </a>
-
-            <a class="sizer" href="#">
-              <li class="media">
-                <img src="http://tympanus.net/Development/Stapel/images/4/14.jpg" alt="Collage Photo">
-              </li>
-            </a>
-
-            <a class="sizer" href="#">
-              <li class="media">
-                <img src="http://dribbble.s3.amazonaws.com/users/41738/screenshots/659951/dad-faces.jpg" alt="Collage Photo">
-              </li>
-            </a>
-
-            <a class="sizer" href="#">
-              <li class="media">
-                <img src="http://tympanus.net/Development/Stapel/images/7/8.jpg" alt="Collage Photo">
-              </li>
-            </a>
-
-            <a class="sizer" href="#">
-              <li class="media">
-                <img src="http://tympanus.net/Development/Stapel/images/3/4.jpg" alt="Collage Photo">
-              </li>
-            </a>
-
-          </ul>
-
+          </div>
         </div>
       </div>
+
     </div>
+  </section>
+  <section class="page-sectin">
+    <!-- #about -->
+    <%= render 'shared/components/cta' %>
+  </section>
 
-  </div>
-</section>
-<section class="page-sectin">
-  <!-- #about -->
-  <%= render 'shared/components/cta' %>
-</section>
+  <%= render 'shared/footer' %>
 
-<%= render 'shared/footer' %>
+  <!-- #hero -->
 
-<!-- #hero -->
-
-<!-- animation moving hand with indicator finger swiping down to indicate User Swipe Down swipe down svg, CSS, or JS -->
+  <!-- animation moving hand with indicator finger swiping down to indicate User Swipe Down swipe down svg, CSS, or JS -->
