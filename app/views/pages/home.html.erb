@@ -11,22 +11,36 @@
 
 </section>
 
+<section id="about" class="page-section">
+<div class="container-fluid">
+<div class="row">
+<div class="col  order-1"></div>
+
+<div class="colorder-2">
+
+</div>
+
+</div>
+</div>
+</section>
+
 <!--========================== About Us Section ============================-->
 <section id="about" class="page-section">
   <div class="container about-container">
-    <div class="row justify-content-md-center "></div>
+    <div class="row justify-content-md-center ">
     <h2 class="title">O Que Oferecemos.</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
+    </div>
   </div> 
 
   <div class="container about-container">
 
-    <div class="row justify-content-md-center ">
+    <div class="row  ">
 
-      <div class="col col-lg-6 content order-lg-1 order-1">
-
+      <div class="col col-lg-6 content contain-box-1  order-1">
+<DIV CLASS="about-container">>
 
         <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
           <div class="icon">
@@ -59,23 +73,25 @@
         </div>
 
       </div>
-      <% collage = [
-                    "http://tympanus.net/Development/Stapel/images/6/7.jpg",
-                    "http://tympanus.net/Development/Stapel/images/4/14.jpg",
-                    "http://dribbble.s3.amazonaws.com/users/41738/screenshots/659951/dad-faces.jpg",
-                    "http://tympanus.net/Development/Stapel/images/7/8.jpg",
-                    "http://tympanus.net/Development/Stapel/images/3/4.jpg"
-                    ]  %>
-        <div class="col col-lg-6 order-lg-2 order-2 wow fadeInRight collage">
+  <% collage = [
+                "http://tympanus.net/Development/Stapel/images/6/7.jpg",
+                "http://tympanus.net/Development/Stapel/images/4/14.jpg",
+                "http://dribbble.s3.amazonaws.com/users/41738/screenshots/659951/dad-faces.jpg",
+                "http://tympanus.net/Development/Stapel/images/7/8.jpg",
+                "http://tympanus.net/Development/Stapel/images/3/4.jpg"
+    ]  %>
+                
+        <div class="col col-lg-6 contain-box-2  order-2">
+    <div class="">
 
-          <div class="container">
 
-            <ul class="list-unstyled">
+
+            <ul class="list-unstyled collage wow fadeInLeft">
 
               <% collage.each do |image| %>
                 <a class="sizer" href="#">
                   <li class="media">
-                    <img src="<%= image %>" "alt=" collage="Collage" photo"=" photo""="Photo""">
+                    <img src="<%= image %>" alt="Photo">
                   </li>
                 </a>
               <% end %>
@@ -83,6 +99,7 @@
 
           </div>
         </div>
+      </div>
       </div>
 
     </div>
