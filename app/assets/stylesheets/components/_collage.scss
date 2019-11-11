@@ -1,7 +1,7 @@
 
 /* About Us Section
 --------------------------------*/
-#about {
+#about{
   background: #fff;
   padding: 80px 0;
   display: block;
@@ -121,7 +121,7 @@
             -webkit-filter: grayscale(0%);
         }
 
-#about .about-container  {
+.about-container  {
   & .content {
     background: #fff;
   }
@@ -132,21 +132,21 @@
     }
 }
 
-#about .about-container p {
+.about-container p {
   line-height: 26px;
 }
 
-#about .about-container p:last-child {
+.about-container p:last-child {
   margin-bottom: 0;
 }
 
-#about .about-container .icon-box {
+.about-container .icon-box {
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
-#about .about-container .icon-box .icon {
+.about-container .icon-box .icon {
   float: left;
   background: #fff;
   padding: 16px;
@@ -154,12 +154,12 @@
   border: 2px solid #2dc997;
 }
 
-#about .about-container .icon-box .icon i {
+.about-container .icon-box .icon i {
   color: #2dc997;
   font-size: 24px;
 }
 
-#about .about-container .icon-box .title {
+.about-container .icon-box .title {
   margin-left: 80px;
   font-weight: 500;
   margin-bottom: 5px;
@@ -167,11 +167,11 @@
   text-transform: uppercase;
 }
 
-#about .about-container .icon-box .title a {
+.about-container .icon-box .title a {
   color: #111;
 }
 
-#about .about-container .icon-box .description {
+.about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
@@ -182,7 +182,7 @@
 }
 
 @media (max-width: 768px) {
-  #about .about-container .title {
+  .about-container .title {
     display: inline-flex;
     padding-top: 15px;
   }
