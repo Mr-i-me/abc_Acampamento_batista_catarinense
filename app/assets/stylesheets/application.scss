@@ -1,9 +1,7 @@
 // Graphical variables
 // @import "config/fonts";
-@import "config/mixins";
-@import "config/variables";
-@import "config/page";
 
+@import "config/_config.scss  ";
 // External libraries
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome-sprockets";

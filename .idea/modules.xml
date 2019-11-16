@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/abc_Acampamento_batista_catarinense.iml" filepath="$PROJECT_DIR$/.idea/abc_Acampamento_batista_catarinense.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../prototype/.idea/prototype.iml" filepath="$PROJECT_DIR$/../prototype/.idea/prototype.iml" />
+    </modules>
+  </component>
+</project>
